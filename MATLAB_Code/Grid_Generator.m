@@ -56,17 +56,17 @@ Y(2:end-1, 2:end-1) = 0;
 %% Right Hand Side
 %[X,Y] = rightBulgeIn(X,Y);
 %[X,Y] = rightBulgeOut(X,Y);
-%[X,Y] = rightSwan(X,Y);
+[X,Y] = rightSwan(X,Y);
 
 %% Bottom Side
 %[X,Y] = bottomDome(X,Y);
-%[X,Y] = bottomValley(X,Y);
+[X,Y] = bottomValley(X,Y);
 %[X,Y] = bottomChevron(X,Y);
 
 %% Top Side
 %[X,Y] = topDome(X,Y);
 %[X,Y] = topValley(X,Y);
-%[X,Y] = topChevron(X,Y);
+[X,Y] = topChevron(X,Y);
 %[X,Y] = topSwan(X,Y);
 
 %% Do Transfinite Interpolation on the grid, just for fun
