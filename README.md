@@ -1,8 +1,8 @@
 # Grid Maker
 
-Contains code for generating grids from the "Fundamerntals of Grid Generation" book by Patrick Knupp and Stanly Steinberg.
+It contains code for [generating grids](MATLAB_Code/Grid_Generator.m) from the "Fundamentals of Grid Generation" book by Patrick Knupp and Stanly Steinberg.
 
-Based on boundaries, most of the grids from the appendix of the book can be generated. A transfinite interpolator is included to show when interpolation works and doesn't work.
+Most of the grids from the book's appendix can be generated based on boundaries. A transfinite interpolator is included to show when interpolation works and doesn't work.
 
 Some examples from the book using 21x21 points on a unit domain:
 
