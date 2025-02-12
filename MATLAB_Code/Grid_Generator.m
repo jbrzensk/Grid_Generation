@@ -33,6 +33,9 @@
 % C.9 - Valley Grid:
 %                 uncomment "topValley"
 %
+% Fishtail:
+%                 uncomment "topValley", "rightBulgeIn", "bottomDome"
+%
 %
 %% Grid Outlines
 % Limits of domain, domain extends from (0,0) to (xlimit, ylimit)
