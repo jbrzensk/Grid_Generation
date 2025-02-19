@@ -1,10 +1,9 @@
-function [ X, Y ] = leftAngle( X, Y, inner_r, angle_offset)
+function [ X, Y ] = leftCornerAngle( X, Y, radius)
 %% Bends left hand side at an angle
 % BY: Jared Brzenski
 [n,m] = size(X);
 
-theta = -angle_offset;
-radius = linspace(inner_r,1,n);
+theta = linspace(pi/2, pi, n);
 
 % Define spatial grid
 xpt_new = radius .* sin(theta);
